@@ -1,0 +1,56 @@
+.ingredients{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3rem;
+    justify-content: space-between
+}
+
+.ingredients__check{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.division{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.ingredients__check-div{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 1.9rem;
+}
+
+.ingredients__check-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 0.3rem;
+}
+
+strong{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .ingredients{
+        margin-left: 2%;
+        margin-right: 2%;
+        flex-direction: column-reverse;
+        margin-top: 1.5rem;
+    }
+    .ingredients__check{
+        width: 98%;
+    }
+    .division{
+        font-size: 1.5rem;
+    }
+    .ingredients__check-div{
+        margin-top: 1.8rem;
+        margin-bottom: 1.7rem;
+    }
+}

@@ -1,0 +1,48 @@
+.prep__time{
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    height: 50%;
+}
+
+.prep__time-icons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.material-icons{
+    margin-bottom: 1.9rem;
+}
+
+.material-icons.orange600 { color: #FB8C00; }
+.material-icons.gray { color: #4F4F4F;}
+
+.prep__time-div{
+    margin-bottom: 1rem;
+}
+
+.prep__time-gray{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #BDBDBD;
+    font-size: 0.75em;
+    margin-bottom: 0.5rem;
+}
+
+.prep__time-main{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 768px){
+    .prep__time{
+        box-shadow: none;
+        height: 30%;
+        padding: 1rem;
+        justify-content: center;
+    }
+}
